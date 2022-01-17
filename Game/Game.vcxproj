@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F5239F51-5601-49D3-A380-C8CA9A820946}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstractfactory.h" />
+    <ClInclude Include="banana.h" />
+    <ClInclude Include="bat.h" />
+    <ClInclude Include="bee.h" />
+    <ClInclude Include="beer.h" />
+    <ClInclude Include="bird.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="bmp_file.h" />
+    <ClInclude Include="bmp_manager.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="cake.h" />
+    <ClInclude Include="candle.h" />
+    <ClInclude Include="candle2.h" />
+    <ClInclude Include="candy.h" />
+    <ClInclude Include="candy2.h" />
+    <ClInclude Include="cherry.h" />
+    <ClInclude Include="choco.h" />
+    <ClInclude Include="clear.h" />
+    <ClInclude Include="collision_manager.h" />
+    <ClInclude Include="data_manager.h" />
+    <ClInclude Include="death.h" />
+    <ClInclude Include="dino.h" />
+    <ClInclude Include="dog.h" />
+    <ClInclude Include="doughnut.h" />
+    <ClInclude Include="egg.h" />
+    <ClInclude Include="exe.h" />
+    <ClInclude Include="food.h" />
+    <ClInclude Include="food_file.h" />
+    <ClInclude Include="gameover.h" />
+    <ClInclude Include="gold.h" />
+    <ClInclude Include="grape.h" />
+    <ClInclude Include="heart.h" />
+    <ClInclude Include="human.h" />
+    <ClInclude Include="Icecream.h" />
+    <ClInclude Include="icecream2.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="key_manager.h" />
+    <ClInclude Include="lemon.h" />
+    <ClInclude Include="lifeup.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="line_manager.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="meat.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="monster_file.h" />
+    <ClInclude Include="my_bmpmap.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="logo.h" />
+    <ClInclude Include="main_game.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="obj_manager.h" />
+    <ClInclude Include="obj_pool_manager.h" />
+    <ClInclude Include="old_bird.h" />
+    <ClInclude Include="paprika.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="pudding.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="save.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="scene_manager.h" />
+    <ClInclude Include="Score20000.h" />
+    <ClInclude Include="score750.h" />
+    <ClInclude Include="scroll_manager.h" />
+    <ClInclude Include="snake.h" />
+    <ClInclude Include="sound_manager.h" />
+    <ClInclude Include="spider.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="stage2.h" />
+    <ClInclude Include="stage3.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Lose.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="banana.cpp" />
+    <ClCompile Include="bat.cpp" />
+    <ClCompile Include="bee.cpp" />
+    <ClCompile Include="beer.cpp" />
+    <ClCompile Include="bird.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="bmp_manager.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="cake.cpp" />
+    <ClCompile Include="candle.cpp" />
+    <ClCompile Include="candle2.cpp" />
+    <ClCompile Include="candy.cpp" />
+    <ClCompile Include="candy2.cpp" />
+    <ClCompile Include="cherry.cpp" />
+    <ClCompile Include="choco.cpp" />
+    <ClCompile Include="clear.cpp" />
+    <ClCompile Include="collision_manager.cpp" />
+    <ClCompile Include="data_manager.cpp" />
+    <ClCompile Include="death.cpp" />
+    <ClCompile Include="dino.cpp" />
+    <ClCompile Include="dog.cpp" />
+    <ClCompile Include="doughnut.cpp" />
+    <ClCompile Include="egg.cpp" />
+    <ClCompile Include="exe.cpp" />
+    <ClCompile Include="food.cpp" />
+    <ClCompile Include="gameover.cpp" />
+    <ClCompile Include="gold.cpp" />
+    <ClCompile Include="grape.cpp" />
+    <ClCompile Include="heart.cpp" />
+    <ClCompile Include="human.cpp" />
+    <ClCompile Include="Icecream.cpp" />
+    <ClCompile Include="icecream2.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="key_manager.cpp" />
+    <ClCompile Include="lemon.cpp" />
+    <ClCompile Include="lifeup.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="line_manager.cpp" />
+    <ClCompile Include="lose.cpp" />
+    <ClCompile Include="meat.cpp" />
+    <ClCompile Include="monster.cpp" />
+    <ClCompile Include="my_bmpmap.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="logo.cpp" />
+    <ClCompile Include="main_game.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="obj_manager.cpp" />
+    <ClCompile Include="obj_pool_manager.cpp" />
+    <ClCompile Include="old_bird.cpp" />
+    <ClCompile Include="paprika.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="pudding.cpp" />
+    <ClCompile Include="save.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="scene_manager.cpp" />
+    <ClCompile Include="Score20000.cpp" />
+    <ClCompile Include="score750.cpp" />
+    <ClCompile Include="scroll_manager.cpp" />
+    <ClCompile Include="snake.cpp" />
+    <ClCompile Include="sound_manager.cpp" />
+    <ClCompile Include="spider.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Game.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

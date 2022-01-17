@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01.obj">
+      <UniqueIdentifier>{016d8d8a-a271-4330-9617-360faab124aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager">
+      <UniqueIdentifier>{85f56fc4-e6d3-4be4-bf36-e5ea0493c0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\99.default">
+      <UniqueIdentifier>{ba21bcdd-8fe4-4a38-b437-5b922e5704ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\98.include">
+      <UniqueIdentifier>{52d946ae-4428-4213-b5ae-e390bcc811cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game">
+      <UniqueIdentifier>{a495fe59-2fab-47ad-a9d4-f5dde76332cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene">
+      <UniqueIdentifier>{241967b9-4e19-44d5-a850-8477b5cc4d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\00.logo">
+      <UniqueIdentifier>{178c15cc-d52b-4192-a213-7a58df0550a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\00.player">
+      <UniqueIdentifier>{3fb7eb86-ba38-499d-8985-10941fc5e143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster">
+      <UniqueIdentifier>{31953c44-9de0-4e28-9888-a8194605639b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\02.bullet">
+      <UniqueIdentifier>{0fd803d1-1233-4b3c-9d3b-42a7c6151306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item">
+      <UniqueIdentifier>{41ed583a-9f8c-48b8-89a9-ec8402afd038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\04.otbstacle">
+      <UniqueIdentifier>{3ba3ebc9-e73f-4e74-b558-a01122af22b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food">
+      <UniqueIdentifier>{acc831ae-e5b9-464b-b4c0-b03a42131eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\00.bmp">
+      <UniqueIdentifier>{c7fc24c9-5828-4642-b470-375443728c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\00.bmp\00.my_bmpmap">
+      <UniqueIdentifier>{7bc4b3c1-6312-4d2f-b245-794fcb0b1e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\01.line">
+      <UniqueIdentifier>{de87d83b-13e8-477d-aa82-ab8a336dc686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\01.line\00.line">
+      <UniqueIdentifier>{cc6e16ac-e59c-4869-b5e8-a0ea6f32c1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\02.key">
+      <UniqueIdentifier>{1167ac2e-4d32-4eb3-b2e6-06198af0d5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\03.scroll">
+      <UniqueIdentifier>{9f4e9afc-6c50-4b36-b36d-4280662e18b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\04.scene">
+      <UniqueIdentifier>{01db00c2-9847-4f7a-82b8-2d8766e6f757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\05.data">
+      <UniqueIdentifier>{f4a1f321-6a60-48b1-a4a4-300a1f4b436d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\06.obj">
+      <UniqueIdentifier>{1c60aec1-6a44-45f9-827b-782c351d6f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\07.obj_pool">
+      <UniqueIdentifier>{7feeba9f-eca0-454d-a1b4-50a92befc064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\01.stage">
+      <UniqueIdentifier>{87d89f30-e0dc-4311-a3a1-23d3b2da84d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\01.stage\01.stage2">
+      <UniqueIdentifier>{0e0b6f3d-c164-4c57-be81-70524a4d2d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\01.stage\00.stage1">
+      <UniqueIdentifier>{089b5669-eeea-4728-8d29-b2f87b8d5c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\01.stage\02.stage3">
+      <UniqueIdentifier>{3ede0078-5935-4f70-8b1c-a5a3834f444a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\08.collision">
+      <UniqueIdentifier>{2cdbd669-c8c7-40f6-987a-f5e78611610c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\04.otbstacle\00.block">
+      <UniqueIdentifier>{9e4c7a5d-04e7-4602-adb6-9716d96f3e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\04.otbstacle\01.save">
+      <UniqueIdentifier>{a6ac9877-799f-4423-9b03-bd7ede53152b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\03. lose">
+      <UniqueIdentifier>{33ca82cb-bbe2-40bc-b962-e7260905f1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.main_game\00.scene\02. clear">
+      <UniqueIdentifier>{5e8e6fbd-50a8-40b0-8beb-1393f7dfa886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\00.snake">
+      <UniqueIdentifier>{df44fbc7-9d14-4596-95ae-9132b7820c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\01.bee">
+      <UniqueIdentifier>{e09b9820-4f41-4d64-b7b2-d2ce02df155f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\02.bat">
+      <UniqueIdentifier>{d2271b1a-b005-4827-be2e-31029cd37a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\03.dino">
+      <UniqueIdentifier>{50e2da84-cb47-403b-82f7-c1765f98a249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\04.human">
+      <UniqueIdentifier>{0f51e262-3892-4b3c-8f61-88e46f29d648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\05.dog">
+      <UniqueIdentifier>{e69bcf06-3a11-4412-9841-275c0796cc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\06.spider">
+      <UniqueIdentifier>{f6e746c1-c768-43a5-9980-a4fc2921ad32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\07.bird">
+      <UniqueIdentifier>{45b60589-53ba-4f21-954c-2d2d14a809d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\01.monster\08.old bird">
+      <UniqueIdentifier>{e132be25-0b9b-4b23-827c-35e10a89d36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\01.candy">
+      <UniqueIdentifier>{8864bd9a-d386-4540-af81-ce179370f63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\02.cake">
+      <UniqueIdentifier>{1a397a8b-1b5e-4527-9d85-ee969959b47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\03.beer">
+      <UniqueIdentifier>{ca5fc470-7b50-4fe3-98ad-7cab78cebda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\04.candle">
+      <UniqueIdentifier>{ba07c2de-79ee-4af5-9178-593620a35be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\05.candle2">
+      <UniqueIdentifier>{7a80684c-35e4-41aa-b2c6-1f3845776bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\06.heart">
+      <UniqueIdentifier>{730607e4-5947-4402-9947-7f79b2b72eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\06.gold">
+      <UniqueIdentifier>{e474f855-80cf-480a-a785-dfa9bd2e54cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\07.choco">
+      <UniqueIdentifier>{e3cabdeb-0828-4701-8c20-765eb8967cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\07.cherry">
+      <UniqueIdentifier>{38afda6c-1816-4eb9-bf53-b68153da5e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\08.egg">
+      <UniqueIdentifier>{e2f0f58e-d5cb-43cf-bb03-447881a046b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\09.doughnut">
+      <UniqueIdentifier>{7375f8f5-ec84-40f2-8933-f197b2705ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\10.death">
+      <UniqueIdentifier>{926f96f6-cc55-4e4f-9f0d-e1678e4da94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\11.750">
+      <UniqueIdentifier>{01e33699-b6f2-4758-b521-f4b760b938b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\12.20000">
+      <UniqueIdentifier>{a1f6e2d0-a327-4b7d-999b-75065f96d692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\00.grape">
+      <UniqueIdentifier>{39610a89-38fd-48ec-991b-9c8fb3e5b8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\13.banana">
+      <UniqueIdentifier>{90ed829e-3293-4c61-a3c8-c78c299f90af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\14.paprika">
+      <UniqueIdentifier>{ae786384-f1be-4ab4-a9f0-18dff8785209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\15.lifeup">
+      <UniqueIdentifier>{9d42aa60-de78-4e9e-bb1e-8ba492501382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\16.exe">
+      <UniqueIdentifier>{5e44c569-df73-48bc-95d8-d58eebe27caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\17.gameover">
+      <UniqueIdentifier>{b1d854da-e58d-4cea-83f4-80371d4c6d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\23.pudding">
+      <UniqueIdentifier>{9aa39a4d-6c3c-456a-a56a-d9891a3526a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\24.meat">
+      <UniqueIdentifier>{4bc2046b-2b4d-44ee-a709-8ead552a7b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\18.leamon">
+      <UniqueIdentifier>{54c6a045-3c12-4e46-9a6a-bedfe159d053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\20.icecream">
+      <UniqueIdentifier>{2782960d-ec6c-4e5f-94a9-f1b473346c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\22.icecream2">
+      <UniqueIdentifier>{c5f75603-44cb-45b5-b67d-87d2c5371101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.obj\03.item\00.food\19.candy2">
+      <UniqueIdentifier>{5d20fe32-a059-459b-9fee-686089896be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.manager\09.sound">
+      <UniqueIdentifier>{12ac490b-d180-4a9c-b866-0fe9c8c0fcc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일\99.default</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractfactory.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="main_game.h">
+      <Filter>소스 파일\00.main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>소스 파일\00.main_game\00.scene\00.logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\00.stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>소스 파일\00.main_game\00.scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01.obj</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>소스 파일\01.obj\03.item\00.food</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>소스 파일\01.obj\03.item</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>소스 파일\01.obj\02.bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>소스 파일\01.obj\01.monster</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>소스 파일\01.obj\00.player</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp_manager.h">
+      <Filter>소스 파일\02.manager\00.bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="my_bmpmap.h">
+      <Filter>소스 파일\02.manager\00.bmp\00.my_bmpmap</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>소스 파일\02.manager\01.line\00.line</Filter>
+    </ClInclude>
+    <ClInclude Include="line_manager.h">
+      <Filter>소스 파일\02.manager\01.line</Filter>
+    </ClInclude>
+    <ClInclude Include="key_manager.h">
+      <Filter>소스 파일\02.manager\02.key</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll_manager.h">
+      <Filter>소스 파일\02.manager\03.scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>소스 파일\02.manager\04.scene</Filter>
+    </ClInclude>
+    <ClInclude Include="data_manager.h">
+      <Filter>소스 파일\02.manager\05.data</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_manager.h">
+      <Filter>소스 파일\02.manager\06.obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_pool_manager.h">
+      <Filter>소스 파일\02.manager\07.obj_pool</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>소스 파일\02.manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>소스 파일\02.manager\08.collision</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp_file.h">
+      <Filter>헤더 파일\98.include</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>소스 파일\01.obj\04.otbstacle\00.block</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>소스 파일\01.obj\04.otbstacle\01.save</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\01.stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\02.stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose.h">
+      <Filter>소스 파일\00.main_game\00.scene\03. lose</Filter>
+    </ClInclude>
+    <ClInclude Include="beer.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\03.beer</Filter>
+    </ClInclude>
+    <ClInclude Include="cake.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\02.cake</Filter>
+    </ClInclude>
+    <ClInclude Include="candle.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\04.candle</Filter>
+    </ClInclude>
+    <ClInclude Include="candle2.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\05.candle2</Filter>
+    </ClInclude>
+    <ClInclude Include="candy.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\01.candy</Filter>
+    </ClInclude>
+    <ClInclude Include="cherry.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\07.cherry</Filter>
+    </ClInclude>
+    <ClInclude Include="choco.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\07.choco</Filter>
+    </ClInclude>
+    <ClInclude Include="death.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\10.death</Filter>
+    </ClInclude>
+    <ClInclude Include="egg.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\08.egg</Filter>
+    </ClInclude>
+    <ClInclude Include="grape.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\00.grape</Filter>
+    </ClInclude>
+    <ClInclude Include="doughnut.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\09.doughnut</Filter>
+    </ClInclude>
+    <ClInclude Include="score750.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\11.750</Filter>
+    </ClInclude>
+    <ClInclude Include="Score20000.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\12.20000</Filter>
+    </ClInclude>
+    <ClInclude Include="gold.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\06.gold</Filter>
+    </ClInclude>
+    <ClInclude Include="heart.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\06.heart</Filter>
+    </ClInclude>
+    <ClInclude Include="food_file.h">
+      <Filter>소스 파일\01.obj\03.item</Filter>
+    </ClInclude>
+    <ClInclude Include="banana.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\13.banana</Filter>
+    </ClInclude>
+    <ClInclude Include="paprika.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\14.paprika</Filter>
+    </ClInclude>
+    <ClInclude Include="lifeup.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\15.lifeup</Filter>
+    </ClInclude>
+    <ClInclude Include="old_bird.h">
+      <Filter>소스 파일\01.obj\01.monster\08.old bird</Filter>
+    </ClInclude>
+    <ClInclude Include="spider.h">
+      <Filter>소스 파일\01.obj\01.monster\06.spider</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>소스 파일\01.obj\01.monster\00.snake</Filter>
+    </ClInclude>
+    <ClInclude Include="human.h">
+      <Filter>소스 파일\01.obj\01.monster\04.human</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>소스 파일\01.obj\01.monster\05.dog</Filter>
+    </ClInclude>
+    <ClInclude Include="dino.h">
+      <Filter>소스 파일\01.obj\01.monster\03.dino</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>소스 파일\01.obj\01.monster\07.bird</Filter>
+    </ClInclude>
+    <ClInclude Include="bat.h">
+      <Filter>소스 파일\01.obj\01.monster\02.bat</Filter>
+    </ClInclude>
+    <ClInclude Include="bee.h">
+      <Filter>소스 파일\01.obj\01.monster\01.bee</Filter>
+    </ClInclude>
+    <ClInclude Include="monster_file.h">
+      <Filter>소스 파일\01.obj\01.monster</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>소스 파일\00.main_game\00.scene\02. clear</Filter>
+    </ClInclude>
+    <ClInclude Include="exe.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\16.exe</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\17.gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="candy2.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\19.candy2</Filter>
+    </ClInclude>
+    <ClInclude Include="Icecream.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\20.icecream</Filter>
+    </ClInclude>
+    <ClInclude Include="icecream2.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\22.icecream2</Filter>
+    </ClInclude>
+    <ClInclude Include="pudding.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\23.pudding</Filter>
+    </ClInclude>
+    <ClInclude Include="meat.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\24.meat</Filter>
+    </ClInclude>
+    <ClInclude Include="lemon.h">
+      <Filter>소스 파일\01.obj\03.item\00.food\18.leamon</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>소스 파일\02.manager\09.sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일\99.default</Filter>
+    </ClCompile>
+    <ClCompile Include="main_game.cpp">
+      <Filter>소스 파일\00.main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="logo.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\00.logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\00.stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>소스 파일\00.main_game\00.scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01.obj</Filter>
+    </ClCompile>
+    <ClCompile Include="food.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>소스 파일\01.obj\03.item</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>소스 파일\01.obj\02.bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>소스 파일\01.obj\01.monster</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>소스 파일\01.obj\00.player</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp_manager.cpp">
+      <Filter>소스 파일\02.manager\00.bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="my_bmpmap.cpp">
+      <Filter>소스 파일\02.manager\00.bmp\00.my_bmpmap</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>소스 파일\02.manager\01.line\00.line</Filter>
+    </ClCompile>
+    <ClCompile Include="line_manager.cpp">
+      <Filter>소스 파일\02.manager\01.line</Filter>
+    </ClCompile>
+    <ClCompile Include="key_manager.cpp">
+      <Filter>소스 파일\02.manager\02.key</Filter>
+    </ClCompile>
+    <ClCompile Include="scroll_manager.cpp">
+      <Filter>소스 파일\02.manager\03.scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>소스 파일\02.manager\04.scene</Filter>
+    </ClCompile>
+    <ClCompile Include="data_manager.cpp">
+      <Filter>소스 파일\02.manager\05.data</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_manager.cpp">
+      <Filter>소스 파일\02.manager\06.obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_pool_manager.cpp">
+      <Filter>소스 파일\02.manager\07.obj_pool</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>소스 파일\02.manager\08.collision</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>소스 파일\01.obj\04.otbstacle\00.block</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>소스 파일\01.obj\04.otbstacle\01.save</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\01.stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\01.stage\02.stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="lose.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\03. lose</Filter>
+    </ClCompile>
+    <ClCompile Include="beer.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\03.beer</Filter>
+    </ClCompile>
+    <ClCompile Include="cake.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\02.cake</Filter>
+    </ClCompile>
+    <ClCompile Include="candle.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\04.candle</Filter>
+    </ClCompile>
+    <ClCompile Include="candle2.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\05.candle2</Filter>
+    </ClCompile>
+    <ClCompile Include="candy.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\01.candy</Filter>
+    </ClCompile>
+    <ClCompile Include="cherry.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\07.cherry</Filter>
+    </ClCompile>
+    <ClCompile Include="choco.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\07.choco</Filter>
+    </ClCompile>
+    <ClCompile Include="death.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\10.death</Filter>
+    </ClCompile>
+    <ClCompile Include="egg.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\08.egg</Filter>
+    </ClCompile>
+    <ClCompile Include="grape.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\00.grape</Filter>
+    </ClCompile>
+    <ClCompile Include="doughnut.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\09.doughnut</Filter>
+    </ClCompile>
+    <ClCompile Include="score750.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\11.750</Filter>
+    </ClCompile>
+    <ClCompile Include="Score20000.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\12.20000</Filter>
+    </ClCompile>
+    <ClCompile Include="gold.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\06.gold</Filter>
+    </ClCompile>
+    <ClCompile Include="heart.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\06.heart</Filter>
+    </ClCompile>
+    <ClCompile Include="banana.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\13.banana</Filter>
+    </ClCompile>
+    <ClCompile Include="paprika.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\14.paprika</Filter>
+    </ClCompile>
+    <ClCompile Include="lifeup.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\15.lifeup</Filter>
+    </ClCompile>
+    <ClCompile Include="old_bird.cpp">
+      <Filter>소스 파일\01.obj\01.monster\08.old bird</Filter>
+    </ClCompile>
+    <ClCompile Include="spider.cpp">
+      <Filter>소스 파일\01.obj\01.monster\06.spider</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>소스 파일\01.obj\01.monster\00.snake</Filter>
+    </ClCompile>
+    <ClCompile Include="human.cpp">
+      <Filter>소스 파일\01.obj\01.monster\04.human</Filter>
+    </ClCompile>
+    <ClCompile Include="dog.cpp">
+      <Filter>소스 파일\01.obj\01.monster\05.dog</Filter>
+    </ClCompile>
+    <ClCompile Include="dino.cpp">
+      <Filter>소스 파일\01.obj\01.monster\03.dino</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>소스 파일\01.obj\01.monster\07.bird</Filter>
+    </ClCompile>
+    <ClCompile Include="bat.cpp">
+      <Filter>소스 파일\01.obj\01.monster\02.bat</Filter>
+    </ClCompile>
+    <ClCompile Include="bee.cpp">
+      <Filter>소스 파일\01.obj\01.monster\01.bee</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>소스 파일\00.main_game\00.scene\02. clear</Filter>
+    </ClCompile>
+    <ClCompile Include="exe.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\16.exe</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\17.gameover</Filter>
+    </ClCompile>
+    <ClCompile Include="candy2.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\19.candy2</Filter>
+    </ClCompile>
+    <ClCompile Include="Icecream.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\20.icecream</Filter>
+    </ClCompile>
+    <ClCompile Include="icecream2.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\22.icecream2</Filter>
+    </ClCompile>
+    <ClCompile Include="pudding.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\23.pudding</Filter>
+    </ClCompile>
+    <ClCompile Include="meat.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\24.meat</Filter>
+    </ClCompile>
+    <ClCompile Include="lemon.cpp">
+      <Filter>소스 파일\01.obj\03.item\00.food\18.leamon</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_manager.cpp">
+      <Filter>소스 파일\02.manager\09.sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>헤더 파일\99.default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
